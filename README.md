@@ -88,11 +88,11 @@ Fill in the table using the 'shape' shorthand
 
 | Function      | types of inputs                  | type of output           |
 | ------------- | -------------------------------- | ------------------------ |
-| `getName`     |                                  |                          |
-| `getAge`      |                                  |                          |
-| `makePerson`  |                                  |                          |
+| `getName`     |   Person                         |      string              |
+| `getAge`      |   Person                         |       number             |
+| `makePerson`  |   string, number                 |     Person               |
 | `birthday`    |                                  |                          |
-| `getDistance` |                                  |                          |
+| `getDistance` |    string                        |         number           |
 
 ### Function Signatures
 
